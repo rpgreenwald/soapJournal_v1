@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-root to: "pages#home"
+root "pages#home"
 get "about" => "pages#about"
 get "twilio" => "pages#twilio"
 devise_for :users
